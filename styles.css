@@ -5,102 +5,101 @@ body {
 }
 
 .header {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
   font: 500 30px/37px 'Montserrat', Sans-Serif, Arial;
-  display: inline-block;
-  margin-right: 238px;
-  padding: 36px 0 0 52px;
+  padding: 36px 0 23px 52px;
   color: #fff;
 }
 
 .language {
   font: 500 20px/24px 'Montserrat', Sans-Serif, Arial;
-  display: inline-block;
-  position: relative;
-  padding: 0 0 0 6px;
+  padding: 0 0 0 15.8vw;
   text-decoration: none;
   color: #fff;
 }
 
 .menu {
-  display: inline-block;
-  position: absolute;
   right: 0;
 }
 
-.pic {
-  background: url('img/Rectangle.svg') no-repeat top left;
-  position: relative;
+.page1 {
+  background: linear-gradient(to right, #000 32%, #fff 30%);
 }
 
 .main {
   background: url('img/pete-bellis-432867-unsplash.jpg') no-repeat;
-  position: relative;
   background-position-x: 21%;
-  background-position-y: 29%;
+  background-position-y: 35%;
+}
+
+.main__pic {
+
 }
 
 .main__title {
   font: 700 80px/82px 'Montserrat', Sans-Serif, Arial;
-  padding: 204px 176px 0 792px;
+  padding: 12% 0 1% 55%;
   margin: 0;
 }
 
 .main__subtitle {
   font: 400 15px/21px 'Montserrat', Sans-Serif, Arial;
-  padding: 12px 184px 56px 789px;
+  padding: 0.5% 15% 4% 55%;
   margin: 0;
 }
 
 .main__links {
-  position: relative;
-  padding: 0px 163px 241px 786px;
+  /* position: relative; */
+  padding: 0 0 7.5% 54.5%;
   margin: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 
 .main__links-button {
   font: 500 13px 'Montserrat', Sans-Serif, Arial;
-  padding: 14px 41px;
+  padding: 12px 45px;
   border: 1.5px solid black;
   text-decoration: none;
   color: black;
-  margin-right: 54px;
-  display: inline-block;
+  margin-right: 8%;
+  /* display: inline-block; */
 }
 
 .main__links-ref {
   font: 500 13px 'Montserrat', Sans-Serif, Arial;
   text-decoration: none;
   color: black;
-  margin-right: 19px;
+  margin-right: 5%;
   display: inline-block;
 }
 
 .main__bottom {
-  position: relative;
-  left: 51px;
-  bottom: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main__bottom-icon {
-  display: inline-block;
-  margin-right: 8px;
+  padding: 3.5% 0 0% 3.5%;
+  width: 12%;
+}
+
+.icon {
+  margin-right: 5%;
 }
 
 .main__bottom-scrooll {
-  display: inline-block;
-  padding-left: 491px;
+  padding: 0 18% 0 0px;
 }
 
-.main__bottom-scrooll-line {
-  position: relative;
-  display: flex;
-  padding-left: 668px;
-  bottom: 38px;
+.main__bottom-blanc {
+  width: 1px;
+  height: 1px;
 }
