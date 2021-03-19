@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  width: 100%;
+  max-width: 1440px;
+  font-family: 'Montserrat', Sans-Serif, Arial;
+}
+
+.logo {
+  font: 500 30px/37px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.language {
+  font: 500 20px/24px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.first-page__title {
+  font: 700 80px/82px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.first-page__subtitle {
+  font: 400 15px/21px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.first-page__links-read {
+  font: 500 13px 'Montserrat', Sans-Serif, Arial;
+}
+
+.first-page__links-other {
+  font: 500 13px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.second-page__title {
+  font: 700 40px/41px 'Montserrat', Sans-Serif, Arial;
+}
+
+.second-page__subtitle {
+  font: 700 16px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.second-page__text {
+  font: 400 15px/21px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.prise {
+  font: 700 40px/56px 'Montserrat', Sans-Serif, Arial;
+}
+
+.second-page__bottom,
+.third-page__bottom {
+  font: 500 13px 'Montserrat', Sans-Serif, Arial;
+}
+
+
+.second-page__amount {
+
+  font: 500 15px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.second-page__bucket {
+
+  font: 500 13px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.third-page__title {
+  font: 700 40px/41px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.third-page__subtitle {
+  font: 700 16px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.third-page__text {
+  font: 400 15px/21px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.third-page__amount {
+
+  font: 500 15px 'Montserrat', Sans-Serif, Arial;
+  }
+
+.third-page__bucket {
+
+  font: 500 13px 'Montserrat', Sans-Serif, Arial;
+
+}
+
+.third-page__bottom-text {
+  font: 700 12px/15px 'Montserrat', Sans-Serif, Arial;
+
+}
