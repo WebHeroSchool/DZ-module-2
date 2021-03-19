@@ -15,7 +15,9 @@ a {
   background: linear-gradient(to right, #000 32%, #fff 30%);
 }
 
-.menu-mini {
+.menu-mini,
+.third-arrow-mini,
+.first-arrow-down {
   display: none;
 }
 
@@ -45,18 +47,18 @@ a {
 .first-page__main {
   background: url('img/pete-bellis-432867-unsplash.jpg') no-repeat;
   background-position-x: 21%;
-  background-position-y: 35%;
+  background-position-y: 5%;
 }
 
 .first-page__title {
   font: 700 80px/82px 'Montserrat', Sans-Serif, Arial;
-  padding: 12% 0px 1% 55%;
-  margin: 0;
+  padding: 7.5% 0px 1% 54.7%;
+  margin-bottom: 0;
 }
 
 .first-page__subtitle {
   font: 400 15px/21px 'Montserrat', Sans-Serif, Arial;
-  padding: 0.5% 0 2.5% 54.8%;
+  padding: 0.2% 0 2.6% 54.8%;
   margin: 0;
   width: 32%;
 }
@@ -189,7 +191,7 @@ a {
 }
 
 .colors {
-  width: 50%;
+  width: 89%;
 }
 
 .circles {
@@ -349,22 +351,184 @@ a {
 
 @media (max-width: 380px) {
 
+  .menu,
+  .first-page__subtitle,
+  .first-page__text,
+  .first-page__links,
+  .first-page__bottom,
+  .gray,
+  .second-page__amount,
+  .second-page__bottom,
+  .second-arrow,
+  .third-page__amount,
+  .third-arrow,
+  .third-page__bottom-text {
+    display: none;
+  }
+
 .first-page {
     background: #fff;
+    height: 597px;
 }
 
 .logo {
   color: #000;
-  padding: 0% 0% 7% 7%;
-}
-
-.menu {
-  display: none;
+  padding: 0% 0% 1% 7%;
 }
 
 .menu-mini {
   display: block;
   right: 0;
 }
+
+.first-page__main {
+  background: url('img/pete-bellis-432867-unsplash-mini.jpg') no-repeat;
+  background-position: 0vw -16.5vw;
+  overflow: hidden;
+  height: 527px;
+}
+
+.first-page__title {
+  padding: 85% 20% 0 7%;
+  font: 700 50px/21px 'Montserrat', Sans-Serif, Arial;
+  line-height: 1;
+  margin-bottom: 3.5%;
+}
+
+.first-arrow-down {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.down {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(45deg);
+}
+
+.second-page {
+  height: 595px;
+}
+
+.second-page__main {
+  margin: 69.5% 10% 0% 7.5%;
+  width: 81%;
+  height: 45%;
+  padding: 1% 0% 2% 4%;
+}
+
+.second-page__title {
+  font: 700 20px/20px 'Montserrat', Sans-Serif, Arial;
+  padding: 4.5% 0% 0% 4.5%;
+  margin: 0 0 1.5% 0;
+}
+
+.second-page__subtitle {
+  font: 700 10px/10px 'Montserrat', Sans-Serif, Arial;
+  padding: 0 0 3% 5%;
+  letter-spacing: 0.7px;
+  margin: 0 0 0 0;
+}
+
+.second-page__text{
+  font: 400 9px/13px 'Montserrat', Sans-Serif, Arial;
+  margin: 0;
+  padding: 1.5% 0% 2% 5%;
+}
+
+.second-page__picture {
+}
+
+.pink {
+   width: 60%;
+   transform: translate(6%, -19%);
+}
+
+.second-page__info {
+  width: auto;
+  padding: 0% 10% 3% 7%;
+}
+
+.second-page__choice {
+  padding: 4% 9% 0 0;
+}
+
+.circles {
+  width: 13%;
+  margin-right: 3%;
+}
+
+.prise {
+  font: 700 20px/28px 'Montserrat', Sans-Serif, Arial;
+  padding: 4% 0% 0% 0%;
+}
+
+.second-page__bucket {
+  height: 10vw;
+  width: 100%;
+  margin: 0% 0% 0% 6%;
+  box-sizing: border-box;
+}
+
+.third-page {
+  height: 597px;
+  background: linear-gradient(to right, #EBE3D8 27%, #000 27%, #000 38%, #EBE3D8 38%);
+}
+
+.clothes {
+  width: 100%;
+  transform: translate(-3%, -2%);
+}
+
+.third-page__title {
+  font: 700 20px 'Montserrat', Sans-Serif, Arial;
+  margin-bottom: 0;
+}
+
+.third-page__subtitle {
+  font: 700 10px 'Montserrat', Sans-Serif, Arial;
+  letter-spacing: 0.7px;
+  margin-bottom: 4.5%;
+}
+
+.third-page__text {
+  font: 400 9px 'Montserrat', Sans-Serif, Arial;
+  width: 85%;
+}
+
+.third-page__main {
+  margin: 72.5% 0% 5% 12%;
+  width: 71%;
+  padding: 0% 4% 5% 6%;
+  height: 30%;
+}
+
+.third-page__bucket {
+  height: 10vw;
+  width: 100%;
+  /* margin: 0% 0% 0% 6%; */
+  box-sizing: border-box;
+}
+
+.third-page__choice {
+  padding: 2% 3% 0 0;
+}
+
+.third-page__bottom {
+  font: 500 15px/18px 'Montserrat', Sans-Serif, Arial;
+  display: inline-flex;
+  padding: 1% 7% 1% 50%;
+  margin-bottom: 0;
+}
+
+.third-arrow-mini {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0% 14% 1% 50%;
+}
+
 
 }
