@@ -121,6 +121,14 @@ a {
 .first-page__links-read:hover,
 .first-arrow:hover,
 .icon:hover,
-.first-page__bottom-scrooll:hover {
+.first-page__bottom-scrooll:hover,
+.circles:hover,
+.second-page__amount:hover,
+.second-page__bucket:hover,
+.second-arrow:hover,
+.third-page__amount:hover,
+.third-page__bucket:hover,
+.third-arrow:hover,
+.menu-mini:hover {
 	opacity: 0.5;
 }
