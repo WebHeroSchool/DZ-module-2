@@ -74,7 +74,7 @@ a {
   border: 1.5px solid black;
   /* text-decoration: none; */
   /* color: black; */
-  margin-right: 7.2%;
+  margin-right: 7.4%;
   height: 2.8vw;
   width: 14vw;
   display: inline-flex;
@@ -143,7 +143,7 @@ a {
 .second-page__main {
   background-color: #fff;
   display: inline-block;
-  margin: 11.5% auto auto 61%;
+  margin: 11.5% auto auto 60.8%;
   width: 30%;
   height: 57%;
   padding: 1% 0% 2% 4%;
@@ -168,7 +168,7 @@ a {
   font: 400 15px/21px 'Montserrat', Sans-Serif, Arial;
   opacity: .5;
   width: 85%;
-  padding-top: 1%;
+  padding-top: 1.2%;
 }
 
 .second-page__info {
@@ -187,7 +187,10 @@ a {
   display: flex;
   justify-content: space-between;
   margin-bottom: 7%;
-  padding: 5% 16% 0% 0%;
+}
+
+.second-page__choice {
+  padding: 4.5% 15% 0% 0%;
 }
 
 .colors {
@@ -195,14 +198,14 @@ a {
 }
 
 .circles {
-  margin-right: 4%;
-  padding-top: 6%;
+  margin-right: 3%;
+  padding-top: 4.5%;
   cursor: pointer;
 }
 
 .prise {
   font: 700 40px/56px 'Montserrat', Sans-Serif, Arial;
-  margin-right: 2%;
+  margin-right: 1%;
 }
 
 .second-page__bottom,
@@ -220,9 +223,9 @@ a {
 .second-page__amount {
   /* padding: 11px 33px; */
   height: 2.8vw;
-  width: 6.6vw;
+  width: 6.8vw;
   border: 1.5px solid black;
-  margin-right: 2%;
+  /* margin-right: 4%; */
   font: 500 15px 'Montserrat', Sans-Serif, Arial;
   display: inline-flex;
   align-items: center;
@@ -230,9 +233,8 @@ a {
 }
 
 .second-page__bucket {
-  /* padding: 11px 42px; */
   height: 2.8vw;
-  width: 17.2vw;
+  width: 17.3vw;
   border: 1.5px solid black;
   font: 500 13px 'Montserrat', Sans-Serif, Arial;
   display: inline-flex;
@@ -292,11 +294,15 @@ a {
 
 .third-page__picture {
   position: absolute;
-  top: 9.5vw;
-  left: 6vw;
+  top: 9.7vw;
+  left: 6.1vw;
   overflow: auto;
   z-index: 2;
   box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 40%);
+}
+
+.third-page__choice {
+  padding: 5% 15% 0% 0%;
 }
 
 .third-page__amount {
@@ -304,7 +310,7 @@ a {
   height: 2.8vw;
   width: 6.8vw;
   border: 1.5px solid black;
-  margin-right: 4%;
+  /* margin-right: 5%; */
   font: 500 15px 'Montserrat', Sans-Serif, Arial;
   display: inline-flex;
   align-items: center;
@@ -314,7 +320,7 @@ a {
 .third-page__bucket {
   /* padding: 12px 42px; */
   height: 2.8vw;
-  width: 17vw;
+  width: 17.3vw;
   border: 1.5px solid black;
   font: 500 13px 'Montserrat', Sans-Serif, Arial;
   display: inline-flex;
@@ -349,7 +355,7 @@ a {
 	opacity: 0.5;
 }
 
-@media (max-width: 380px) {
+/* @media (max-width: 380px) {
 
   .menu,
   .first-page__subtitle,
@@ -509,7 +515,6 @@ a {
 .third-page__bucket {
   height: 10vw;
   width: 100%;
-  /* margin: 0% 0% 0% 6%; */
   box-sizing: border-box;
 }
 
@@ -531,4 +536,4 @@ a {
 }
 
 
-}
+} */
