@@ -135,7 +135,7 @@ a {
 	width: 77%;
 	height: 73%;
 	padding: 2% 0% 2% 10%;
-	box-shadow: 25px 25px 40px -34px #808080;
+	box-shadow: 25px 25px 40px -34px #808080
 }
 .second-page__title {
 	font: 700 40px/41px'Montserrat', Sans-Serif, Arial;
@@ -385,6 +385,9 @@ a {
 	.first-page__title {
 		padding-top: 18%
 	}
+	.header {
+		margin-bottom: 5%
+	}
 	.first-page__bottom-icon {
 		width: 15%
 	}
@@ -512,6 +515,9 @@ a {
 	.first-page__title {
 		font-size: 67px
 	}
+	.header {
+		margin-bottom: 10%
+	}
 	.first-page__subtitle {
 		width: 81%;
 		font-size: 12px
@@ -561,6 +567,9 @@ a {
 @media (max-width: 888px) {
 	.first-page__title {
 		padding-top: 13%
+	}
+	.header {
+		margin-bottom: 13%
 	}
 	.language {
 		padding: 0 0 0 9vw
@@ -620,7 +629,7 @@ a {
 		padding-top: 35%
 	}
 	.third-page__info {
-		width: 64%;
+		width: 64%
 	}
 }
 @media (max-width: 780px) {
@@ -640,8 +649,10 @@ a {
 		display: none
 	}
 	.first-page {
-		background: #fff;
-		height: 900px
+		background: #fff
+	}
+	.header {
+		margin-bottom: 0
 	}
 	.logo {
 		color: #000;
@@ -662,7 +673,7 @@ a {
 		padding: 90% 0% 0 8%;
 		font: 700 70px/41px'Montserrat', Sans-Serif, Arial;
 		line-height: 1;
-		margin-bottom: 2.3%;
+		margin-bottom: 2.3%
 	}
 	.first-arrow-down {
 		display: flex;
@@ -686,7 +697,7 @@ a {
 		width: auto;
 		background-position: 49% 75%;
 		height: 42%;
-		background-size: 49%;
+		background-size: 49%
 	}
 	.second-page__main {
 		width: 69%;
@@ -711,7 +722,7 @@ a {
 	}
 	.second-page__info {
 		width: 85%;
-		padding: 0% 10% 2% 7%;
+		padding: 0% 10% 2% 7%
 	}
 	.second-page__custom {
 		padding: 2% 0 4% 5%;
@@ -784,7 +795,7 @@ a {
 	.third-page__bottom {
 		font: 500 15px/18px'Montserrat', Sans-Serif, Arial;
 		padding: 3% 7% 1% 48%;
-		width: 21%
+		width: 24%
 	}
 	.third-arrow-mini {
 		display: flex;
@@ -792,7 +803,83 @@ a {
 		padding: 0% 32% 1% 38%
 	}
 }
-@media (max-width: 390px) {
+@media (max-width: 600px) {
+	.first-page {
+		height: 150vw
+	}
+	.first-page__title {
+		padding-top: 100%;
+		margin-bottom: 5%;
+		font-size: 65px
+	}
+	.second-page__title {
+		font-size: 35px
+	}
+	.second-page__subtitle {
+		font-size: 13px
+	}
+	.second-page__picture {
+		background-size: 60%
+	}
+	.second-page__text {
+		font-size: 12px
+	}
+	.prise {
+		font-size: 30px
+	}
+	.colors {
+		padding-top: 3%
+	}
+	.third-page__blanc {
+		height: 42%
+	}
+	.third-page__bottom {
+		padding: 3% 7% 1% 39%;
+		width: 30%
+	}
+	.second-page__bucket,
+	.third-page__bucket {
+		font-size: 13px
+	}
+}
+@media (max-width: 560px) {
+	.header {
+		height: 11%
+	}
+}
+@media (max-width: 521px) {
+	.header {
+		height: 12%
+	}
+	.second-page__main {
+		width: 75%
+	}
+	.third-page__blanc {
+		height: 37%
+	}
+}
+@media (max-width: 480px) {
+	.second-page__title,
+	.third-page__title {
+		font-size: 30px
+	}
+	.header {
+		height: 13%
+	}
+}
+@media (max-width: 425px) {
+	.first-page__title {
+		font-size: 60px;
+		padding-top: 95%
+	}
+	.header {
+		height: 14%
+	}
+	.third-page__blanc {
+		height: 33%
+	}
+}
+@media (max-width: 380px) {
 	.menu,
 	.language,
 	.first-page__picture,
@@ -810,31 +897,28 @@ a {
 		display: none
 	}
 	.first-page {
-		background: #fff;
-		height: 600px
+		background: #fff
 	}
 	.logo {
 		color: #000;
 		padding: 0% 0% 1% 7%;
-		font-size: 30px;
+		font-size: 30px
 	}
 	.header {
-		height: 10.8%;
-		padding-top: 1%
+		height: 12%
 	}
 	.menu-mini {
-		display: block;
-		right: 0
+		display: flex
 	}
 	.first-page__main {
 		background: url('img/pete-bellis-432867-unsplash-mini.jpg') no-repeat;
-		background-position: 0vw -14.5vw;
+		background-position: 0vw -15vw;
 		overflow: hidden;
 		position: relative;
-		height: 530px
+		height: 140.5vw
 	}
 	.first-page__title {
-		padding: 117.9% 0% 0 8%;
+		padding: 117.5% 0% 0 8%;
 		font: 700 50px/21px'Montserrat', Sans-Serif, Arial;
 		line-height: 1;
 		margin-bottom: 4.3%
@@ -843,7 +927,7 @@ a {
 		display: flex;
 		justify-content: center;
 		margin: 0;
-		padding-left: 21%
+		padding-left: 20.5%
 	}
 	.down {
 		border: solid black;
@@ -854,29 +938,32 @@ a {
 	}
 	.second-page {
 		display: block;
-		height: 596px
+		height: 168vw
 	}
 	.second-page__picture {
 		background: url('img/pink.png') no-repeat;
 		width: auto;
-		background-position: 49% 80%;
-		height: 43%;
+		background-position: 49% 54%;
+		height: 46.5%;
 		background-size: 60%
 	}
 	.second-page__main {
 		width: 81%;
 		padding: 1.3% 0 0 7.2%
 	}
+	.colors {
+		padding-top: 0
+	}
 	.second-page__title {
 		font: 700 20px/20px'Montserrat', Sans-Serif, Arial;
-		padding: 6.8% 0% 0% 3%;
-		margin: 0 0 1.2% 0;
+		padding: 6.7% 0% 0% 3%;
+		margin: 0 0 1.2% 0
 	}
 	.second-page__subtitle {
 		font: 700 10px/10px'Montserrat', Sans-Serif, Arial;
 		padding: 0 0 2.9% 4%;
 		letter-spacing: 0.7px;
-		margin: 0 0 0 0;
+		margin: 0 0 0 0
 	}
 	.second-page__text {
 		font: 400 9px/13px'Montserrat', Sans-Serif, Arial;
@@ -890,7 +977,7 @@ a {
 	}
 	.second-page__custom {
 		padding: 2% 0 7% 5%;
-		width: 94%;
+		width: 94%
 	}
 	.circles {
 		width: 13%;
@@ -918,11 +1005,11 @@ a {
 		height: 597px;
 		display: block;
 		background-position: top;
-		background-size: 93%;
-		background-position-y: 9.3%;
+		background-size: 93%, 100%;
+		background-position-y: 10.5%
 	}
 	.third-page__blanc {
-		height: 45.5%
+		height: 46%
 	}
 	.third-page__info {
 		width: 85%
@@ -935,7 +1022,7 @@ a {
 	.third-page__subtitle {
 		font: 700 10px'Montserrat', Sans-Serif, Arial;
 		letter-spacing: 0.7px;
-		margin-bottom: 3.6%;
+		margin-bottom: 3.6%
 	}
 	.third-page__text {
 		font: 400 9px'Montserrat', Sans-Serif, Arial;
@@ -945,9 +1032,8 @@ a {
 	.third-page__main {
 		margin: 0% 0% 5% 12%;
 		width: 87.5%;
-		/* padding: 0% 4% 5% 6%; */
 		height: 60%;
-		padding: 0;
+		padding: 0
 	}
 	.third-page__bucket {
 		height: 10vw;
