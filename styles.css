@@ -815,7 +815,8 @@ a {
 	}
 	.logo {
 		color: #000;
-		padding: 0% 0% 1% 7%
+		padding: 0% 0% 1% 7%;
+		font-size: 30px;
 	}
 	.header {
 		height: 10.8%;
@@ -869,13 +870,13 @@ a {
 	.second-page__title {
 		font: 700 20px/20px'Montserrat', Sans-Serif, Arial;
 		padding: 6.8% 0% 0% 3%;
-		margin: 0 0 1.1% 0
+		margin: 0 0 1.2% 0;
 	}
 	.second-page__subtitle {
 		font: 700 10px/10px'Montserrat', Sans-Serif, Arial;
-		padding: 0 0 3% 4%;
+		padding: 0 0 2.9% 4%;
 		letter-spacing: 0.7px;
-		margin: 0 0 0 0
+		margin: 0 0 0 0;
 	}
 	.second-page__text {
 		font: 400 9px/13px'Montserrat', Sans-Serif, Arial;
@@ -888,8 +889,8 @@ a {
 		padding: 0% 10% 2% 7%
 	}
 	.second-page__custom {
-		padding: 2% 0 6% 5%;
-		width: 94%
+		padding: 2% 0 7% 5%;
+		width: 94%;
 	}
 	.circles {
 		width: 13%;
@@ -918,7 +919,7 @@ a {
 		display: block;
 		background-position: top;
 		background-size: 93%;
-		background-position-y: 9.5%
+		background-position-y: 9.3%;
 	}
 	.third-page__blanc {
 		height: 45.5%
@@ -934,7 +935,7 @@ a {
 	.third-page__subtitle {
 		font: 700 10px'Montserrat', Sans-Serif, Arial;
 		letter-spacing: 0.7px;
-		margin-bottom: 3.6%
+		margin-bottom: 3.6%;
 	}
 	.third-page__text {
 		font: 400 9px'Montserrat', Sans-Serif, Arial;
@@ -942,10 +943,11 @@ a {
 		padding: 0
 	}
 	.third-page__main {
-		margin: 0% 0% 5% 6%;
+		margin: 0% 0% 5% 12%;
 		width: 87.5%;
-		padding: 0% 4% 5% 6%;
-		height: 60%
+		/* padding: 0% 4% 5% 6%; */
+		height: 60%;
+		padding: 0;
 	}
 	.third-page__bucket {
 		height: 10vw;
