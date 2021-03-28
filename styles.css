@@ -1,347 +1,347 @@
 body {
-  margin: 0 auto;
-  width: 100%;
-  padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
 }
 
 a {
-  text-decoration: none;
-  color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
 .first-page {
-  height: 900px;
-  background: linear-gradient(to right, #000 32%, #fff 30%);
+    height: 900px;
+    background: linear-gradient(to right, #000 32%, #fff 30%);
 }
 
 .menu-mini,
 .third-arrow-mini,
 .first-arrow-down {
-  display: none;
+    display: none;
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
-  font: 500 30px/37px'Montserrat', Sans-Serif, Arial;
-  padding: 0.6vw 0 0 3.6vw;
-  letter-spacing: 2px;
-  color: #fff;
+    font: 500 30px/37px'Montserrat', Sans-Serif, Arial;
+    padding: 0.6vw 0 0 3.6vw;
+    letter-spacing: 2px;
+    color: #fff;
 }
 
 .language {
-  font: 500 20px/24px'Montserrat', Sans-Serif, Arial;
-  padding: 0 0 0 15.8vw;
-  color: #fff;
+    font: 500 20px/24px'Montserrat', Sans-Serif, Arial;
+    padding: 0 0 0 15.8vw;
+    color: #fff;
 }
 
 .menu {
-  right: 0;
+    right: 0;
 }
 
 .first-page__main {
-  display: flex;
-  flex-direction: column;
-  height: 58.2vw;
+    display: flex;
+    flex-direction: column;
+    height: 58.2vw;
 }
 
 .first-page__center {
-  height: 80%;
-  display: flex;
+    height: 80%;
+    display: flex;
 }
 
 .first-page__picture {
-  background: url('img/pete-bellis-432867-unsplash.jpg') no-repeat;
-  background-position-x: 78%;
-  background-position-y: 67%;
-  width: 100%;
-  height: auto;
-  display: flex;
+    background: url('img/pete-bellis-432867-unsplash.jpg') no-repeat;
+    background-position-x: 78%;
+    background-position-y: 67%;
+    width: 100%;
+    height: auto;
+    display: flex;
 }
 
 .first-page__info {
-  display: flex;
-  flex-direction: column;
-  width: 83%;
-  height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+    height: auto;
 }
 
 .first-page__title {
-  font: 700 80px/82px'Montserrat', Sans-Serif, Arial;
-  padding: 26.7% 0 2.7% 0.5%;
-  margin: 0;
+    font: 700 80px/82px'Montserrat', Sans-Serif, Arial;
+    padding: 26.7% 0 2.7% 0.5%;
+    margin: 0;
 }
 
 .first-page__subtitle {
-  font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
-  padding: 0 0 5.8% 0.3%;
-  margin: 0;
-  width: 72%;
+    font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
+    padding: 0 0 5.8% 0.3%;
+    margin: 0;
+    width: 72%;
 }
 
 .first-page__links {
-  margin: 0;
+    margin: 0;
 }
 
 .first-page__links-read {
-  font: 500 13px'Montserrat', Sans-Serif, Arial;
-  border: 1.5px solid black;
-  margin-right: 7.6%;
-  height: 2.8vw;
-  width: 13.8vw;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+    font: 500 13px'Montserrat', Sans-Serif, Arial;
+    border: 1.5px solid black;
+    margin-right: 7.6%;
+    height: 2.8vw;
+    width: 13.8vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .first-page__links-other {
-  font: 500 13px'Montserrat', Sans-Serif, Arial;
-  text-decoration: none;
-  color: black;
-  margin: 0 2.5% 0 0;
-  display: inline-block;
-  align-items: center;
+    font: 500 13px'Montserrat', Sans-Serif, Arial;
+    text-decoration: none;
+    color: black;
+    margin: 0 2.5% 0 0;
+    display: inline-block;
+    align-items: center;
 }
 
 .first-page__bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .first-page__bottom-icon {
-  padding: 3.4% 0 0% 3.6%;
-  width: 12%;
+    padding: 3.4% 0 0% 3.6%;
+    width: 12%;
 }
 
 .icon {
-  margin-right: 5%;
+    margin-right: 5%;
 }
 
 .first-page__bottom-scrooll {
-  padding: 3.2% 15.5% 0% 0%;
+    padding: 3.2% 15.5% 0% 0%;
 }
 
 .first-page__bottom-blanc {
-  width: 1px;
-  height: 1px;
+    width: 1px;
+    height: 1px;
 }
 
 .second-page {
-  background-color: #fae8e4;
-  height: 900px;
-  display: flex;
-  flex-direction: row;
+    background-color: #fae8e4;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
 }
 
 .second-page__picture {
-  background: url('img/pink.png') no-repeat, url('img/gray.png') no-repeat;
-  width: 100%;
-  height: auto;
-  display: flex;
-  background-position: 78% 50%, 26.5% 45%;
-  position: relative;
+    background: url('img/pink.png') no-repeat, url('img/gray.png') no-repeat;
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-position: 78% 50%, 26.5% 45%;
+    position: relative;
 }
 
 .second-page__main {
-  width: 64%;
-  padding: 11.7% 0 0 0;
+    width: 64%;
+    padding: 11.7% 0 0 0;
 }
 
 .second-page__info {
-  background-color: #fff;
-  display: inline-block;
-  margin: 0;
-  width: 77%;
-  height: 73%;
-  padding: 2% 0% 2% 10%;
-  box-shadow: 25px 25px 40px -34px #808080;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0;
+    width: 77%;
+    height: 73%;
+    padding: 2% 0% 2% 10%;
+    box-shadow: 25px 25px 40px -34px #808080;
 }
 
 .second-page__title {
-  font: 700 40px/41px'Montserrat', Sans-Serif, Arial;
-  margin-bottom: 3%;
+    font: 700 40px/41px'Montserrat', Sans-Serif, Arial;
+    margin-bottom: 3%;
 }
 
 .second-page__subtitle {
-  display: flex;
-  font: 700 16px'Montserrat', Sans-Serif, Arial;
-  opacity: 0.5;
-  margin: 0% 0% 12% 0%;
-  padding-bottom: 3px;
-  letter-spacing: 1px;
+    display: flex;
+    font: 700 16px'Montserrat', Sans-Serif, Arial;
+    opacity: 0.5;
+    margin: 0% 0% 12% 0%;
+    padding-bottom: 3px;
+    letter-spacing: 1px;
 }
 
 .second-page__text {
-  font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
-  opacity: 0.5;
-  width: 86%;
-  padding-top: 1.2%;
+    font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
+    opacity: 0.5;
+    width: 86%;
+    padding-top: 1.2%;
 }
 
 .second-page__custom {
-  display: flex;
-  justify-content: space-between;
-  width: 84%;
-  height: 17%;
-  padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    height: 17%;
+    padding-top: 5%;
 }
 
 .second-page__choice,
 .third-page__choice {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 7%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7%;
 }
 
 .second-page__choice {
-  padding: 3.5% 15% 0% 0%;
+    padding: 3.5% 15% 0% 0%;
 }
 
 .colors {
-  width: 89%;
+    width: 89%;
 }
 
 .circles {
-  margin-right: 3%;
-  padding-top: 4.5%;
-  cursor: pointer;
+    margin-right: 3%;
+    padding-top: 4.5%;
+    cursor: pointer;
 }
 
 .prise {
-  font: 700 40px/56px'Montserrat', Sans-Serif, Arial;
-  margin-right: 2%;
+    font: 700 40px/56px'Montserrat', Sans-Serif, Arial;
+    margin-right: 2%;
 }
 
 .second-page__bottom,
 .third-page__bottom {
-  display: inline-block;
-  font: 500 13px'Montserrat', Sans-Serif, Arial;
-  justify-content: end;
+    display: inline-block;
+    font: 500 13px'Montserrat', Sans-Serif, Arial;
+    justify-content: end;
 }
 
 .second-page__bottom {
-  padding: 6.7% 2% 1% 1%;
-  margin: 0;
+    padding: 6.7% 2% 1% 1%;
+    margin: 0;
 }
 
 .second-page__amount {
-  height: 2.8vw;
-  width: 6.8vw;
-  border: 1.5px solid black;
-  margin-right: 5%;
-  font: 500 15px'Montserrat', Sans-Serif, Arial;
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-evenly;
+    height: 2.8vw;
+    width: 6.8vw;
+    border: 1.5px solid black;
+    margin-right: 5%;
+    font: 500 15px'Montserrat', Sans-Serif, Arial;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .second-page__bucket {
-  height: 2.8vw;
-  width: 17.6vw;
-  border: 1.5px solid black;
-  font: 500 13px'Montserrat', Sans-Serif, Arial;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    height: 2.8vw;
+    width: 17.6vw;
+    border: 1.5px solid black;
+    font: 500 13px'Montserrat', Sans-Serif, Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .third-page {
-  height: 100%;
-  background: url('img/clothes.png') no-repeat, url('img/shadow.png') no-repeat, linear-gradient(to right, #ebe3d8 27%, #000 27%, #000 32%, #ebe3d8 32%);
-  background-position: 14.3% 49.7%, 12% 60%;
-  display: flex;
-  padding-bottom: 1%;
+    height: 100%;
+    background: url('img/clothes.png') no-repeat, url('img/shadow.png') no-repeat, linear-gradient(to right, #ebe3d8 27%, #000 27%, #000 32%, #ebe3d8 32%);
+    background-position: 14.3% 49.7%, 12% 60%;
+    display: flex;
+    padding-bottom: 1%;
 }
 
 .third-page__main {
-  width: 76%;
-  padding: 17.7% 0 0 0;
-  position: relative;
-  z-index: 3;
-  height: 100%;
+    width: 76%;
+    padding: 17.7% 0 0 0;
+    position: relative;
+    z-index: 3;
+    height: 100%;
 }
 
 .third-page__info {
-  background-color: #fae8e4;
-  width: 69%;
-  height: 51%;
-  padding: 0% 0% 2.3% 7.4%;
-  z-index: 3;
-  position: relative;
+    background-color: #fae8e4;
+    width: 69%;
+    height: 51%;
+    padding: 0% 0% 2.3% 7.4%;
+    z-index: 3;
+    position: relative;
 }
 
 .third-page__blanc {
-  width: 100%;
-  height: auto;
-  display: flex;
-  position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
 }
 
 .third-page__title {
-  font: 700 40px/41px'Montserrat', Sans-Serif, Arial;
-  margin: 0 0 3.5% 0;
-  padding: 8.6% 0 0 0%;
+    font: 700 40px/41px'Montserrat', Sans-Serif, Arial;
+    margin: 0 0 3.5% 0;
+    padding: 8.6% 0 0 0%;
 }
 
 .third-page__subtitle {
-  font: 700 16px'Montserrat', Sans-Serif, Arial;
-  opacity: 0.5;
-  margin: 0 0 7.5% 0;
-  letter-spacing: 1px;
+    font: 700 16px'Montserrat', Sans-Serif, Arial;
+    opacity: 0.5;
+    margin: 0 0 7.5% 0;
+    letter-spacing: 1px;
 }
 
 .third-page__text {
-  font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
-  opacity: 0.5;
-  width: 86%;
-  margin: 0 0 8% 0;
-  padding-left: 0.5%;
+    font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
+    opacity: 0.5;
+    width: 86%;
+    margin: 0 0 8% 0;
+    padding-left: 0.5%;
 }
 
 .third-page__choice {
-  padding: 5% 15% 0% 0%;
+    padding: 5% 15% 0% 0%;
 }
 
 .third-page__amount {
-  height: 2.8vw;
-  width: 6.8vw;
-  border: 1.5px solid black;
-  font: 500 15px'Montserrat', Sans-Serif, Arial;
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-evenly;
+    height: 2.8vw;
+    width: 6.8vw;
+    border: 1.5px solid black;
+    font: 500 15px'Montserrat', Sans-Serif, Arial;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .third-page__bucket {
-  height: 2.8vw;
-  width: 17.2vw;
-  border: 1.5px solid black;
-  font: 500 13px'Montserrat', Sans-Serif, Arial;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+    height: 2.8vw;
+    width: 17.2vw;
+    border: 1.5px solid black;
+    font: 500 13px'Montserrat', Sans-Serif, Arial;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .third-page__bottom {
-  padding: 6% 1.8% 0% 20.8%;
-  margin: 0;
+    padding: 6% 1.8% 0% 20.8%;
+    margin: 0;
 }
 
 .third-page__bottom-text {
-  font: 700 12px/15px'Montserrat', Sans-Serif, Arial;
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 33%;
-  width: 98%;
+    font: 700 12px/15px'Montserrat', Sans-Serif, Arial;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 33%;
+    width: 98%;
 }
 
 .WH {
-  padding: 0% 0 0% 4%;
+    padding: 0% 0 0% 4%;
 }
 
 .language:hover,
@@ -357,983 +357,818 @@ a {
 .third-page__bucket:hover,
 .third-arrow:hover,
 .menu-mini:hover {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 @media (max-width: 1415px) {
-  .second-page__text {
-    width: 96%;
+    .second-page__text {
+        width: 96%;
     }
 }
 
 @media (max-width: 1375px) {
-  .first-page__picture {
-    background-size: 70%;
+    .first-page__picture {
+        background-size: 70%;
     }
-
-  .first-page__subtitle {
-    width: 75%;
+    .first-page__subtitle {
+        width: 75%;
     }
 }
 
 @media (max-width: 1350px) {
-  .first-page__bottom-icon {
-    width: 13%;
+    .first-page__bottom-icon {
+        width: 13%;
     }
-
-  .second-page__picture {
-    width: 80%;
+    .second-page__picture {
+        width: 80%;
     }
-
-  .second-page__text {
-    width: 88%;
+    .second-page__text {
+        width: 88%;
     }
-
-  .third-page__text {
-    width: 89%;
+    .third-page__text {
+        width: 89%;
     }
 }
 
 @media (max-width: 1315px) {
-  .first-page__subtitle {
-    width: 79%;
+    .first-page__subtitle {
+        width: 79%;
     }
-
-  .language {
-    padding: 0 0 0 15vw;
+    .language {
+        padding: 0 0 0 15vw;
     }
 }
 
 @media (max-width: 1280px) {
-  .third-page {
-    background-size: 60%, 60%, 100%;
+    .third-page {
+        background-size: 60%, 60%, 100%;
     }
-
-  .third-page__blanc {
-    width: 80%;
+    .third-page__blanc {
+        width: 80%;
     }
-
-  .third-page__text {
-    width: 86%;
+    .third-page__text {
+        width: 86%;
     }
-
-  .third-page__info {
-    width: 65%;
+    .third-page__info {
+        width: 65%;
     }
 }
 
 @media (max-width: 1250px) {
-  .first-page__picture {
-    width: 90%;
+    .first-page__picture {
+        width: 90%;
     }
-
-  .first-page__bottom-icon {
-    width: 14%;
+    .first-page__bottom-icon {
+        width: 14%;
     }
-
-  .language {
-    padding: 0 0 0 14vw;
+    .language {
+        padding: 0 0 0 14vw;
     }
-
-  .first-page__subtitle {
-    width: 78%;
+    .first-page__subtitle {
+        width: 78%;
     }
-
-  .third-page__text {
-    width: 93%;
+    .third-page__text {
+        width: 93%;
     }
 }
 
 @media (max-width: 1215px) {
-  .second-page__picture {
-    width: 70%;
-    background-size: 70%, 50%;
+    .second-page__picture {
+        width: 70%;
+        background-size: 70%, 50%;
     }
-
-  .second-page__main {
-    padding-top: 17%;
+    .second-page__main {
+        padding-top: 17%;
     }
 }
 
 @media (max-width: 1196px) {
-  .first-page__title {
-    padding-top: 18%;
+    .first-page__title {
+        padding-top: 18%;
     }
-
-  .header {
-    margin-bottom: 5%;
+    .header {
+        margin-bottom: 5%;
     }
-
-  .first-page__bottom-icon {
-    width: 15%;
+    .first-page__bottom-icon {
+        width: 15%;
     }
-
-  .first-page__subtitle {
-    width: 81%;
+    .first-page__subtitle {
+        width: 81%;
     }
-
-  .first-page__picture {
-    background-size: 80%;
+    .first-page__picture {
+        background-size: 80%;
     }
-
-  .third-page {
-    background-size: 55%, 55%, 100%;
+    .third-page {
+        background-size: 55%, 55%, 100%;
     }
-
-  .third-page__main {
-    padding-top: 22%;
+    .third-page__main {
+        padding-top: 22%;
     }
-
-  .third-page__blanc {
-    width: 70%;
+    .third-page__blanc {
+        width: 70%;
     }
-
-  .third-page__title {
-    font-size: 36px;
+    .third-page__title {
+        font-size: 36px;
     }
-
-  .third-page__text {
-    width: 91%;
+    .third-page__text {
+        width: 91%;
     }
-
-  .third-page__info {
-    width: 65%;
+    .third-page__info {
+        width: 65%;
     }
-
-  .third-page__bottom {
-    padding-left: 15%;
+    .third-page__bottom {
+        padding-left: 15%;
     }
-
-  .third-page__bucket {
-    font-size: 11px;
+    .third-page__bucket {
+        font-size: 11px;
     }
 }
 
 @media (max-width: 1148px) {
-  .first-page__title {
-    font-size: 75px;
+    .first-page__title {
+        font-size: 75px;
     }
-
-  .language {
-    padding: 0 0 0 13vw;
+    .language {
+        padding: 0 0 0 13vw;
     }
-
-  .first-page__subtitle {
-    width: 85%;
+    .first-page__subtitle {
+        width: 85%;
     }
-
-  .first-page__picture {
-    background-size: 80%;
+    .first-page__picture {
+        background-size: 80%;
     }
-
-  .first-page__bottom-icon,
-  .first-page__bottom-scrooll {
-    padding-top: 7%;
+    .first-page__bottom-icon,
+    .first-page__bottom-scrooll {
+        padding-top: 7%;
     }
-
-  .second-page__picture {
-    width: 60%;
+    .second-page__picture {
+        width: 60%;
     }
 }
 
 @media (max-width: 1109px) {
-  .first-page__title {
-    font-size: 70px;
+    .first-page__title {
+        font-size: 70px;
     }
-
-  .first-page__subtitle {
-    width: 77%;
-    font-size: 13px;
+    .first-page__subtitle {
+        width: 77%;
+        font-size: 13px;
     }
-
-  .first-page__bottom-icon {
-    width: 17%;
+    .first-page__bottom-icon {
+        width: 17%;
     }
-
-  .first-page__bottom-icon,
-  .first-page__bottom-scrooll {
-    padding-top: 7%;
+    .first-page__bottom-icon,
+    .first-page__bottom-scrooll {
+        padding-top: 7%;
     }
-
-  .first-page__links-read,
-  .first-page__links-other {
-    font-size: 10px;
+    .first-page__links-read,
+    .first-page__links-other {
+        font-size: 10px;
     }
-
-  .third-page__main {
-    padding-top: 26%;
+    .third-page__main {
+        padding-top: 26%;
     }
-
-  .third-page__text {
-    width: 96%;
+    .third-page__text {
+        width: 96%;
     }
-
-  .third-page {
-    background-size: 60%, 60%, 100%;
+    .third-page {
+        background-size: 60%, 60%, 100%;
     }
 }
 
 @media (max-width: 1052px) {
-  .first-page__subtitle {
-    width: 80%;
+    .first-page__subtitle {
+        width: 80%;
     }
-
-  .language {
-    padding: 0 0 0 12vw;
+    .language {
+        padding: 0 0 0 12vw;
     }
-
-  .first-page__picture {
-    background-size: 75%;
+    .first-page__picture {
+        background-size: 75%;
     }
-
-  .header {
-    margin-bottom: 10%;
+    .header {
+        margin-bottom: 10%;
     }
-
-  .second-page__picture {
-    width: 50%;
+    .second-page__picture {
+        width: 50%;
     }
-
-  .second-page__main {
-    padding-top: 20%;
+    .second-page__main {
+        padding-top: 20%;
     }
-
-  .second-page__bucket {
-    font-size: 11px;
+    .second-page__bucket {
+        font-size: 11px;
     }
-
-  .prise {
-    font-size: 40px;
+    .prise {
+        font-size: 40px;
     }
-
-  .third-page__info {
-    width: 70%;
+    .third-page__info {
+        width: 70%;
     }
 }
 
 @media (max-width: 1008px) {
-  .first-page__subtitle {
-    width: 84%;
+    .first-page__subtitle {
+        width: 84%;
     }
-
-  .language {
-    padding: 0 0 0 11vw;
+    .language {
+        padding: 0 0 0 11vw;
     }
-
-  .first-page__bottom-icon {
-    width: 17%;
+    .first-page__bottom-icon {
+        width: 17%;
     }
-
-  .third-page__info {
-    width: 75%;
+    .third-page__info {
+        width: 75%;
     }
-
-  .second-page__picture {
-    background-size: 80%, 60%;
+    .second-page__picture {
+        background-size: 80%, 60%;
     }
-
-  .third-page__text {
-    width: 94%;
+    .third-page__text {
+        width: 94%;
     }
 }
 
 @media (max-width: 960px) {
-  .first-page__title {
-    font-size: 67px;
+    .first-page__title {
+        font-size: 67px;
     }
-
-  .header {
-    margin-bottom: 13%;
+    .header {
+        margin-bottom: 13%;
     }
-
-  .first-page__subtitle {
-    width: 81%;
-    font-size: 12px;
+    .first-page__subtitle {
+        width: 81%;
+        font-size: 12px;
     }
-
-  .first-page__bottom-icon {
-    width: 18%;
+    .first-page__bottom-icon {
+        width: 18%;
     }
-
-  .language {
-    padding: 0 0 0 10vw;
+    .language {
+        padding: 0 0 0 10vw;
     }
-
-  .first-page__picture {
-    background-size: 78%;
+    .first-page__picture {
+        background-size: 78%;
     }
-
-  .first-page__bottom-icon,
-  .first-page__bottom-scrooll {
-    padding-top: 12%;
+    .first-page__bottom-icon,
+    .first-page__bottom-scrooll {
+        padding-top: 12%;
     }
-
-  .second-page__text {
-    width: 98%;
+    .second-page__text {
+        width: 98%;
     }
-
-  .third-page__main {
-    padding-top: 25%;
+    .third-page__main {
+        padding-top: 25%;
     }
-
-  .third-page {
-    background-size: 69%, 69%, 100%;
+    .third-page {
+        background-size: 69%, 69%, 100%;
     }
-
-  .third-page__text {
-    width: 99%;
+    .third-page__text {
+        width: 99%;
     }
-
-  .third-page__bucket {
-    font-size: 10px;
+    .third-page__bucket {
+        font-size: 10px;
     }
-
-  .third-page__bottom {
-    padding-left: 10%;
+    .third-page__bottom {
+        padding-left: 10%;
     }
 }
 
 @media (max-width: 920px) {
-  .first-page__subtitle {
-    width: 85%;
+    .first-page__subtitle {
+        width: 85%;
     }
-
-  .first-page__bottom-icon {
-    width: 19%;
+    .first-page__bottom-icon {
+        width: 19%;
     }
-
-  .second-page__bucket {
-    font-size: 9px;
+    .second-page__bucket {
+        font-size: 9px;
     }
-
-  .third-page__info {
-    width: 80%;
+    .third-page__info {
+        width: 80%;
     }
 }
 
 @media (max-width: 888px) {
-  .first-page__title {
-    padding-top: 13%;
-    font-size: 63px;
+    .first-page__title {
+        padding-top: 13%;
+        font-size: 63px;
     }
-
-  .header {
-    margin-bottom: 13%;
+    .header {
+        margin-bottom: 13%;
     }
-
-  .language {
-    padding: 0 0 0 9vw;
+    .language {
+        padding: 0 0 0 9vw;
     }
-
-  .first-page__subtitle {
-    width: 88%;
+    .first-page__subtitle {
+        width: 88%;
     }
-
-  .second-page__info {
-    width: 82%;
+    .second-page__info {
+        width: 82%;
     }
-
-  .third-page {
-    background-size: 75%, 75%, 100%;
+    .third-page {
+        background-size: 75%, 75%, 100%;
     }
 }
 
 @media (max-width: 850px) {
-  .language {
-    padding: 0 0 0 7vw;
+    .language {
+        padding: 0 0 0 7vw;
     }
-
-  .first-page__picture {
-    width: 70%;
+    .first-page__picture {
+        width: 70%;
     }
-
-  .first-page__title {
-    font-size: 60px;
+    .first-page__title {
+        font-size: 60px;
     }
-
-  .first-page__subtitle {
-    width: 81%;
+    .first-page__subtitle {
+        width: 81%;
     }
-
-  .first-page__bottom-icon {
-    width: 20%;
+    .first-page__bottom-icon {
+        width: 20%;
     }
-
-  .first-page__bottom-icon,
-  .first-page__bottom-scrooll {
-    padding-top: 19%;
+    .first-page__bottom-icon,
+    .first-page__bottom-scrooll {
+        padding-top: 19%;
     }
-
-  .first-page__links-read,
-  .first-page__links-other {
-    font-size: 9px;
+    .first-page__links-read,
+    .first-page__links-other {
+        font-size: 9px;
     }
-
-  .second-page__picture {
-    width: 45%;
+    .second-page__picture {
+        width: 45%;
     }
-
-  .third-page__info {
-    width: 84%;
+    .third-page__info {
+        width: 84%;
     }
 }
 
 @media (max-width: 812px) {
-  .first-page__subtitle {
-    width: 85%;
+    .first-page__subtitle {
+        width: 85%;
     }
-
-  .first-page__bottom-icon {
-    width: 21%;
+    .first-page__bottom-icon {
+        width: 21%;
     }
-
-  .third-page__main {
-    padding-top: 26%;
+    .third-page__main {
+        padding-top: 26%;
     }
-
-  .third-page__info {
-    width: 85%;
+    .third-page__info {
+        width: 85%;
     }
 }
 
 @media (max-width: 780px) {
-  .language,
-  .first-page__picture,
-  .first-page__subtitle,
-  .first-page__text,
-  .first-page__links,
-  .first-page__bottom,
-  .gray,
-  .second-page__amount,
-  .second-page__bottom,
-  .second-arrow,
-  .third-page__amount,
-  .third-arrow,
-  .third-page__bottom-text,
-  .WH {
-    display: none;
+    .language,
+    .first-page__picture,
+    .first-page__subtitle,
+    .first-page__text,
+    .first-page__links,
+    .first-page__bottom,
+    .gray,
+    .second-page__amount,
+    .second-page__bottom,
+    .second-arrow,
+    .third-page__amount,
+    .third-arrow,
+    .third-page__bottom-text,
+    .WH {
+        display: none;
     }
-
-  .first-page {
-    background: #fff;
+    .first-page {
+        background: #fff;
     }
-
-  .header {
-    margin-bottom: 0;
-    height: 9.8%;
-    padding-top: 1%;
+    .header {
+        margin-bottom: 0;
+        height: 9.8%;
+        padding-top: 1%;
     }
-
-  .logo {
-    color: #000;
-    padding: 0% 0% 1% 7%;
-    font-size: 40px;
+    .logo {
+        color: #000;
+        padding: 0% 0% 1% 7%;
+        font-size: 40px;
     }
-
-  .first-page__main {
-    background: url('img/pete-bellis-432867-unsplash-mini.jpg') no-repeat;
-    background-position: 0 -20.5vw;
-    height: 900px;
-    background-size: 100%;
+    .first-page__main {
+        background: url('img/pete-bellis-432867-unsplash-mini.jpg') no-repeat;
+        background-position: 0 -20.5vw;
+        height: 900px;
+        background-size: 100%;
     }
-
-  .first-page__title {
-    padding: 90% 0% 0 8%;
-    font: 700 70px/41px'Montserrat', Sans-Serif, Arial;
-    line-height: 1;
-    margin-bottom: 2.3%;
+    .first-page__title {
+        padding: 90% 0% 0 8%;
+        font: 700 70px/41px'Montserrat', Sans-Serif, Arial;
+        line-height: 1;
+        margin-bottom: 2.3%;
     }
-
-  .first-arrow-down {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-left: 21%;
+    .first-arrow-down {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-left: 21%;
     }
-
-  .down {
-    border: solid black;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 17px;
-    transform: rotate(45deg);
+    .down {
+        border: solid black;
+        border-width: 0 5px 5px 0;
+        display: inline-block;
+        padding: 17px;
+        transform: rotate(45deg);
     }
-
-  .second-page {
-    display: block;
-    height: 900px;
+    .second-page {
+        display: block;
+        height: 900px;
     }
-
-  .second-page__picture {
-    background: url('img/pink.png') no-repeat;
-    width: auto;
-    background-position: 49% 75%;
-    height: 42%;
-    background-size: 49%;
+    .second-page__picture {
+        background: url('img/pink.png') no-repeat;
+        width: auto;
+        background-position: 49% 75%;
+        height: 42%;
+        background-size: 49%;
     }
-
-  .second-page__main {
-    width: 69%;
-    padding: 0% 0 0 15%;
+    .second-page__main {
+        width: 69%;
+        padding: 0% 0 0 15%;
     }
-
-  .second-page__title {
-    font: 700 40px/41px'Montserrat', Sans-Serif, Arial;
-    padding: 6.8% 0% 0% 3%;
-    margin: 0 0 1.1% 0;
+    .second-page__title {
+        font: 700 40px/41px'Montserrat', Sans-Serif, Arial;
+        padding: 6.8% 0% 0% 3%;
+        margin: 0 0 1.1% 0;
     }
-
-  .second-page__subtitle {
-    font: 700 16px'Montserrat', Sans-Serif, Arial;
-    padding: 0 0 3% 4%;
-    letter-spacing: 0.7px;
-    margin: 0 0 0 0;
+    .second-page__subtitle {
+        font: 700 16px'Montserrat', Sans-Serif, Arial;
+        padding: 0 0 3% 4%;
+        letter-spacing: 0.7px;
+        margin: 0 0 0 0;
     }
-
-  .second-page__text {
-    font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
-    margin: 0;
-    padding: 2.2% 0% 0% 4.1%;
-    width: 95%;
+    .second-page__text {
+        font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
+        margin: 0;
+        padding: 2.2% 0% 0% 4.1%;
+        width: 95%;
     }
-
-  .second-page__info {
-    width: 85%;
-    padding: 0% 10% 2% 7%;
+    .second-page__info {
+        width: 85%;
+        padding: 0% 10% 2% 7%;
     }
-
-  .second-page__custom {
-    padding: 2% 0 4% 5%;
-    width: 94%;
+    .second-page__custom {
+        padding: 2% 0 4% 5%;
+        width: 94%;
     }
-
-  .circles {
-    width: 13%;
-    margin-right: 2.4%;
+    .circles {
+        width: 13%;
+        margin-right: 2.4%;
     }
-
-  .circles__active {
-    width: 16%;
-    padding-top: 4%;
+    .circles__active {
+        width: 16%;
+        padding-top: 4%;
     }
-
-  .prise {
-    font: 700 40px/56px'Montserrat', Sans-Serif, Arial;
-    padding: 4.3% 0% 0% 0%;
+    .prise {
+        font: 700 40px/56px'Montserrat', Sans-Serif, Arial;
+        padding: 4.3% 0% 0% 0%;
     }
-
-  .second-page__choice {
-    padding: 4% 0% 0% 0%;
+    .second-page__choice {
+        padding: 4% 0% 0% 0%;
     }
-
-  .second-page__bucket {
-    height: 6.7vw;
-    width: 100%;
-    margin: 0% 0% 0% 4%;
-    box-sizing: border-box;
-    font-size: 14.5px;
+    .second-page__bucket {
+        height: 6.7vw;
+        width: 100%;
+        margin: 0% 0% 0% 4%;
+        box-sizing: border-box;
+        font-size: 14.5px;
     }
-
-  .third-page {
-    background: url('img/clothes.png') no-repeat, url('img/shadow.png') no-repeat, linear-gradient(to right, #ebe3d8 25%, #000 25%, #000 37%, #ebe3d8 37%);
-    display: block;
-    background-position: top;
-    background-size: 77%, 81%;
-    background-position-y: 13.5%;
-    height: 100%;
+    .third-page {
+        background: url('img/clothes.png') no-repeat, url('img/shadow.png') no-repeat, linear-gradient(to right, #ebe3d8 25%, #000 25%, #000 37%, #ebe3d8 37%);
+        display: block;
+        background-position: top;
+        background-size: 77%, 81%;
+        background-position-y: 13.5%;
+        height: 100%;
     }
-
-  .third-page__blanc {
-    height: 51%;
+    .third-page__blanc {
+        height: 51%;
     }
-
-  .third-page__title {
-    font: 700 40px'Montserrat', Sans-Serif, Arial;
-    margin-bottom: 1%;
-    padding-top: 8%;
+    .third-page__title {
+        font: 700 40px'Montserrat', Sans-Serif, Arial;
+        margin-bottom: 1%;
+        padding-top: 8%;
     }
-
-  .third-page__subtitle {
-    font: 700 16px'Montserrat', Sans-Serif, Arial;
-    letter-spacing: 0.7px;
-    margin-bottom: 3.6%;
+    .third-page__subtitle {
+        font: 700 16px'Montserrat', Sans-Serif, Arial;
+        letter-spacing: 0.7px;
+        margin-bottom: 3.6%;
     }
-
-  .third-page__text {
-    font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
-    width: 81%;
-    padding: 0;
+    .third-page__text {
+        font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
+        width: 81%;
+        padding: 0;
     }
-
-  .third-page__main {
-    padding: 50% 0% 0% 19%;
+    .third-page__main {
+        padding: 50% 0% 0% 19%;
     }
-
-  .third-page__info {
-    width: 78%;
-    padding-bottom: 2%;
+    .third-page__info {
+        width: 78%;
+        padding-bottom: 2%;
     }
-
-  .third-page__bucket {
-    height: 6.7vw;
-    width: 100%;
-    margin: 0% 0% 0% 4%;
-    box-sizing: border-box;
-    font-size: 14.5px;
+    .third-page__bucket {
+        height: 6.7vw;
+        width: 100%;
+        margin: 0% 0% 0% 4%;
+        box-sizing: border-box;
+        font-size: 14.5px;
     }
-
-  .third-page__choice {
-    padding: 1% 14% 0 0;
+    .third-page__choice {
+        padding: 1% 14% 0 0;
     }
-
-  .third-page__bottom {
-    font: 500 15px/18px'Montserrat', Sans-Serif, Arial;
-    padding: 10% 0% 1% 57%;
-    width: 28%;
+    .third-page__bottom {
+        font: 500 15px/18px'Montserrat', Sans-Serif, Arial;
+        padding: 10% 0% 1% 57%;
+        width: 28%;
     }
-
-  .third-arrow-mini {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0% 19% 10% 38%;
+    .third-arrow-mini {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0% 19% 10% 38%;
     }
 }
 
 @media (max-width: 670px) {
-  .third-page__main {
-    padding: 55% 0% 0% 14%;
+    .third-page__main {
+        padding: 55% 0% 0% 14%;
     }
-
-  .third-page__info {
-    width: 82%;
+    .third-page__info {
+        width: 82%;
     }
 }
 
 @media (max-width: 600px) {
-  .first-page {
-    height: 150vw;
+    .first-page {
+        height: 150vw;
     }
-
-  .first-page__title {
-    padding-top: 100%;
-    margin-bottom: 5%;
-    font-size: 65px;
+    .first-page__title {
+        padding-top: 100%;
+        margin-bottom: 5%;
+        font-size: 65px;
     }
-
-  .second-page__title,
-  .third-page__title {
-    font-size: 35px;
+    .second-page__title,
+    .third-page__title {
+        font-size: 35px;
     }
-
-  .second-page__subtitle {
-    font-size: 13px;
+    .second-page__subtitle {
+        font-size: 13px;
     }
-
-  .second-page__picture {
-    background-size: 60%;
+    .second-page__picture {
+        background-size: 60%;
     }
-
-  .second-page__text {
-    font-size: 12px;
+    .second-page__text {
+        font-size: 12px;
     }
-
-  .prise {
-    font-size: 30px;
+    .prise {
+        font-size: 30px;
     }
-
-  .colors {
-    padding-top: 3%;
+    .colors {
+        padding-top: 3%;
     }
-
-  .third-page {
-    background-position-y: 27%;
-    background-size: 85%, 93%;
+    .third-page {
+        background-position-y: 27%;
+        background-size: 85%, 93%;
     }
-
-  .third-page__blanc {
-    height: 51%;
+    .third-page__blanc {
+        height: 51%;
     }
-
-  .third-page__main {
-    padding: 78% 0% 0% 14%;
+    .third-page__main {
+        padding: 78% 0% 0% 14%;
     }
-
-  .third-page__info {
-    width: 89%;
+    .third-page__info {
+        width: 89%;
     }
-
-  .third-page__bottom {
-    padding: 3% 0% 1% 50%;
-    width: 36%;
+    .third-page__bottom {
+        padding: 3% 0% 1% 50%;
+        width: 36%;
     }
-
-  .second-page__bucket,
-  .third-page__bucket {
-    font-size: 13px;
+    .second-page__bucket,
+    .third-page__bucket {
+        font-size: 13px;
     }
 }
 
 @media (max-width: 560px) {
-  .header {
-    height: 11%;
+    .header {
+        height: 11%;
     }
-
-  .third-page__info {
-    width: 85%;
+    .third-page__info {
+        width: 85%;
     }
 }
 
 @media (max-width: 521px) {
-  .header {
-    height: 12%;
+    .header {
+        height: 12%;
     }
-
-  .second-page__main {
-    width: 75%;
+    .second-page__main {
+        width: 75%;
     }
-
-  .third-page__blanc {
-    height: 49%;
+    .third-page__blanc {
+        height: 49%;
     }
 }
 
 @media (max-width: 480px) {
-  .second-page__title,
-  .third-page__title {
-    font-size: 30px;
+    .second-page__title,
+    .third-page__title {
+        font-size: 30px;
     }
-
-  .header {
-    height: 13%;
+    .header {
+        height: 13%;
     }
 }
 
 @media (max-width: 425px) {
-  .first-page__title {
-    font-size: 60px;
-    padding-top: 95%;
+    .first-page__title {
+        font-size: 60px;
+        padding-top: 95%;
     }
-
-  .header {
-    height: 14%;
+    .header {
+        height: 14%;
     }
-
-  .third-page__main {
-    padding: 90% 0% 0% 14%;
+    .third-page__main {
+        padding: 90% 0% 0% 14%;
     }
 }
 
 @media (max-width: 380px) {
-  .menu,
-  .language,
-  .first-page__picture,
-  .first-page__subtitle,
-  .first-page__text,
-  .first-page__links,
-  .first-page__bottom,
-  .gray,
-  .second-page__amount,
-  .second-page__bottom,
-  .second-arrow,
-  .third-page__amount,
-  .third-arrow,
-  .third-page__bottom-text {
-    display: none;
+    .menu,
+    .language,
+    .first-page__picture,
+    .first-page__subtitle,
+    .first-page__text,
+    .first-page__links,
+    .first-page__bottom,
+    .gray,
+    .second-page__amount,
+    .second-page__bottom,
+    .second-arrow,
+    .third-page__amount,
+    .third-arrow,
+    .third-page__bottom-text {
+        display: none;
     }
-
-  .first-page {
-    background: #fff;
+    .first-page {
+        background: #fff;
     }
-
-  .logo {
-    color: #000;
-    padding: 0% 0% 1% 7%;
-    font-size: 30px;
+    .logo {
+        color: #000;
+        padding: 0% 0% 1% 7%;
+        font-size: 30px;
     }
-
-  .header {
-    height: 12%;
+    .header {
+        height: 12%;
     }
-
-  .menu-mini {
-    display: flex;
+    .menu-mini {
+        display: flex;
     }
-
-  .first-page__main {
-    background: url('img/pete-bellis-432867-unsplash-mini.jpg') no-repeat;
-    background-position: 0 -15vw;
-    overflow: hidden;
-    position: relative;
-    height: 140.5vw;
+    .first-page__main {
+        background: url('img/pete-bellis-432867-unsplash-mini.jpg') no-repeat;
+        background-position: 0 -15vw;
+        overflow: hidden;
+        position: relative;
+        height: 140.5vw;
     }
-
-  .first-page__title {
-    padding: 117.5% 0% 0 8%;
-    font: 700 50px/21px'Montserrat', Sans-Serif, Arial;
-    line-height: 1;
-    margin-bottom: 4.3%;
+    .first-page__title {
+        padding: 117.5% 0% 0 8%;
+        font: 700 50px/21px'Montserrat', Sans-Serif, Arial;
+        line-height: 1;
+        margin-bottom: 4.3%;
     }
-
-  .first-arrow-down {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-left: 20.5%;
+    .first-arrow-down {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-left: 20.5%;
     }
-
-  .down {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 10px;
-    transform: rotate(45deg);
+    .down {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 10px;
+        transform: rotate(45deg);
     }
-
-  .second-page {
-    display: block;
-    height: 168vw;
+    .second-page {
+        display: block;
+        height: 168vw;
     }
-
-  .second-page__picture {
-    background: url('img/pink.png') no-repeat;
-    width: auto;
-    background-position: 49% 54%;
-    height: 46.5%;
-    background-size: 60%;
+    .second-page__picture {
+        background: url('img/pink.png') no-repeat;
+        width: auto;
+        background-position: 49% 54%;
+        height: 46.5%;
+        background-size: 60%;
     }
-
-  .second-page__main {
-    width: 81%;
-    padding: 1.5% 0 0 7.4%;
+    .second-page__main {
+        width: 81%;
+        padding: 1.5% 0 0 7.4%;
     }
-
-  .colors {
-    padding-top: 0;
+    .colors {
+        padding-top: 0;
     }
-
-  .second-page__title {
-    font: 700 20px/20px'Montserrat', Sans-Serif, Arial;
-    padding: 6.7% 0% 0% 3%;
-    margin: 0 0 1.2% 0;
+    .second-page__title {
+        font: 700 20px/20px'Montserrat', Sans-Serif, Arial;
+        padding: 6.7% 0% 0% 3%;
+        margin: 0 0 1.2% 0;
     }
-
-  .second-page__subtitle {
-    font: 700 10px/10px'Montserrat', Sans-Serif, Arial;
-    padding: 0 0 2.9% 4%;
-    letter-spacing: 0.7px;
-    margin: 0 0 0 0;
+    .second-page__subtitle {
+        font: 700 10px/10px'Montserrat', Sans-Serif, Arial;
+        padding: 0 0 2.9% 4%;
+        letter-spacing: 0.7px;
+        margin: 0 0 0 0;
     }
-
-  .second-page__text {
-    font: 400 9px/13px'Montserrat', Sans-Serif, Arial;
-    margin: 0;
-    padding: 2.2% 0% 0% 4.1%;
-    width: 95%;
+    .second-page__text {
+        font: 400 9px/13px'Montserrat', Sans-Serif, Arial;
+        margin: 0;
+        padding: 2.2% 0% 0% 4.1%;
+        width: 95%;
     }
-
-  .second-page__info {
-    width: 88.8%;
-    padding: 0% 10% 2.8% 7%;
+    .second-page__info {
+        width: 88.8%;
+        padding: 0% 10% 2.8% 7%;
     }
-
-  .second-page__custom {
-    padding: 2% 0 7% 5%;
-    width: 94%;
+    .second-page__custom {
+        padding: 2% 0 7% 5%;
+        width: 94%;
     }
-
-  .circles {
-    width: 13%;
-    margin-right: 2.4%;
+    .circles {
+        width: 13%;
+        margin-right: 2.4%;
     }
-
-  .circles__active {
-    width: 16%;
-    padding-top: 4%;
+    .circles__active {
+        width: 16%;
+        padding-top: 4%;
     }
-
-  .prise {
-    font: 700 20px/28px'Montserrat', Sans-Serif, Arial;
-    padding: 4.3% 0% 0% 0%;
+    .prise {
+        font: 700 20px/28px'Montserrat', Sans-Serif, Arial;
+        padding: 4.3% 0% 0% 0%;
     }
-
-  .second-page__choice {
-    padding: 4% 0% 0% 0%;
+    .second-page__choice {
+        padding: 4% 0% 0% 0%;
     }
-
-  .second-page__bucket {
-    height: 9.7vw;
-    width: 100%;
-    margin: 0% 0% 0% 4%;
-    box-sizing: border-box;
-    font-size: 13px;
+    .second-page__bucket {
+        height: 9.7vw;
+        width: 100%;
+        margin: 0% 0% 0% 4%;
+        box-sizing: border-box;
+        font-size: 13px;
     }
-
-  .third-page {
-    display: block;
-    background-position: top;
-    background-size: 93%, 100%;
-    background-position-y: 10.5%;
-    margin: 0;
-    padding-bottom: 10%;
+    .third-page {
+        display: block;
+        background-position: top;
+        background-size: 93%, 100%;
+        background-position-y: 10.5%;
+        margin: 0;
+        padding-bottom: 10%;
     }
-
-  .third-page__blanc {
-    height: 30.5%;
-    margin: 0;
+    .third-page__blanc {
+        height: 30.5%;
+        margin: 0;
     }
-
-  .third-page__info {
-    width: 99.5%;
-    padding: 0% 0% 3% 8%;
-    margin: 0;
+    .third-page__info {
+        width: 99.5%;
+        padding: 0% 0% 3% 8%;
+        margin: 0;
     }
-
-  .third-page__title {
-    font: 700 20px'Montserrat', Sans-Serif, Arial;
+    .third-page__title {
+        font: 700 20px'Montserrat', Sans-Serif, Arial;
     }
-
-  .third-page__subtitle {
-    font: 700 10px'Montserrat', Sans-Serif, Arial;
-    letter-spacing: 0.7px;
-    margin-bottom: 3.6%;
+    .third-page__subtitle {
+        font: 700 10px'Montserrat', Sans-Serif, Arial;
+        letter-spacing: 0.7px;
+        margin-bottom: 3.6%;
     }
-
-  .third-page__text {
-    font: 400 9px'Montserrat', Sans-Serif, Arial;
-    width: 81%;
-    padding: 0;
-    margin-bottom: 7.5%;
+    .third-page__text {
+        font: 400 9px'Montserrat', Sans-Serif, Arial;
+        width: 81%;
+        padding: 0;
+        margin-bottom: 7.5%;
     }
-
-  .third-page__main {
-    width: 75.5%;
-    padding: 73.5% 0% 0% 12%;
-    margin: 0;
+    .third-page__main {
+        width: 75.5%;
+        padding: 73.5% 0% 0% 12%;
+        margin: 0;
     }
-
-  .third-page__bucket {
-    height: 10vw;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 13px;
-    margin: 0;
+    .third-page__bucket {
+        height: 10vw;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 13px;
+        margin: 0;
     }
-
-  .third-page__choice {
-    padding: 1% 8% 0 0;
+    .third-page__choice {
+        padding: 1% 8% 0 0;
     }
-
-  .third-page__bottom {
-    font: 500 15px/18px'Montserrat', Sans-Serif, Arial;
-    padding: 13% 8% 2% 50.5%;
-    width: 50%;
-    margin: 0;
+    .third-page__bottom {
+        font: 500 15px/18px'Montserrat', Sans-Serif, Arial;
+        padding: 13% 8% 2% 50.5%;
+        width: 50%;
+        margin: 0;
     }
-
-  .third-arrow-mini {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0% 1% 0% 42%;
-    margin: 0;
+    .third-arrow-mini {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0% 1% 0% 42%;
+        margin: 0;
     }
 }
