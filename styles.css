@@ -382,6 +382,7 @@ a {
 		.first-page__subtitle {
 				width: 75%;
 		}
+	}
 
 	@media (max-width: 1350px) {
 		.first-page__bottom-icon {
@@ -1354,7 +1355,4 @@ a {
 				padding: 0% 1% 0% 42%;
 				margin: 0;
 		}
-	}
-
-	@media (max-width: 320px) {
 	}
