@@ -12,32 +12,32 @@ a {
 .first-page {
   height: 900px;
   background: linear-gradient(to right, #000 32%, #fff 30%);
-  }
+}
 
 .menu-mini,
 .third-arrow-mini,
 .first-arrow-down {
   display: none;
-  }
+}
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  }
+}
 
 .logo {
   font: 500 30px/37px'Montserrat', Sans-Serif, Arial;
   padding: 0.6vw 0 0 3.6vw;
   letter-spacing: 2px;
   color: #fff;
-  }
+}
 
 .language {
   font: 500 20px/24px'Montserrat', Sans-Serif, Arial;
   padding: 0 0 0 15.8vw;
   color: #fff;
-  }
+}
 
 .menu {
   right: 0;
@@ -47,12 +47,12 @@ a {
   display: flex;
   flex-direction: column;
   height: 58.2vw;
-  }
+}
 
 .first-page__center {
   height: 80%;
   display: flex;
-  }
+}
 
 .first-page__picture {
   background: url('img/pete-bellis-432867-unsplash.jpg') no-repeat;
@@ -61,31 +61,31 @@ a {
   width: 100%;
   height: auto;
   display: flex;
-  }
+}
 
 .first-page__info {
   display: flex;
   flex-direction: column;
   width: 83%;
   height: auto;
-  }
+}
 
 .first-page__title {
   font: 700 80px/82px'Montserrat', Sans-Serif, Arial;
   padding: 26.7% 0 2.7% 0.5%;
   margin: 0;
-  }
+}
 
 .first-page__subtitle {
   font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
   padding: 0 0 5.8% 0.3%;
   margin: 0;
   width: 72%;
-  }
+}
 
 .first-page__links {
   margin: 0;
-  }
+}
 
 .first-page__links-read {
   font: 500 13px'Montserrat', Sans-Serif, Arial;
@@ -96,7 +96,7 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  }
+}
 
 .first-page__links-other {
   font: 500 13px'Montserrat', Sans-Serif, Arial;
@@ -105,38 +105,38 @@ a {
   margin: 0 2.5% 0 0;
   display: inline-block;
   align-items: center;
-  }
+}
 
 .first-page__bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  }
+}
 
 .first-page__bottom-icon {
   padding: 3.4% 0 0% 3.6%;
   width: 12%;
-  }
+}
 
 .icon {
   margin-right: 5%;
-  }
+}
 
 .first-page__bottom-scrooll {
   padding: 3.2% 15.5% 0% 0%;
-  }
+}
 
 .first-page__bottom-blanc {
   width: 1px;
   height: 1px;
-  }
+}
 
 .second-page {
   background-color: #fae8e4;
   height: 900px;
   display: flex;
   flex-direction: row;
-  }
+}
 
 .second-page__picture {
   background: url('img/pink.png') no-repeat, url('img/gray.png') no-repeat;
@@ -145,12 +145,12 @@ a {
   display: flex;
   background-position: 78% 50%, 26.5% 45%;
   position: relative;
-  }
+}
 
 .second-page__main {
   width: 64%;
   padding: 11.7% 0 0 0;
-  }
+}
 
 .second-page__info {
   background-color: #fff;
@@ -160,12 +160,12 @@ a {
   height: 73%;
   padding: 2% 0% 2% 10%;
   box-shadow: 25px 25px 40px -34px #808080;
-  }
+}
 
 .second-page__title {
   font: 700 40px/41px'Montserrat', Sans-Serif, Arial;
   margin-bottom: 3%;
-  }
+}
 
 .second-page__subtitle {
   display: flex;
@@ -174,14 +174,14 @@ a {
   margin: 0% 0% 12% 0%;
   padding-bottom: 3px;
   letter-spacing: 1px;
-  }
+}
 
 .second-page__text {
   font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
   opacity: 0.5;
   width: 86%;
   padding-top: 1.2%;
-  }
+}
 
 .second-page__custom {
   display: flex;
@@ -189,45 +189,45 @@ a {
   width: 84%;
   height: 17%;
   padding-top: 5%;
-  }
+}
 
 .second-page__choice,
 .third-page__choice {
   display: flex;
   justify-content: space-between;
   margin-bottom: 7%;
-  }
+}
 
 .second-page__choice {
   padding: 3.5% 15% 0% 0%;
-  }
+}
 
 .colors {
   width: 89%;
-  }
+}
 
 .circles {
   margin-right: 3%;
   padding-top: 4.5%;
   cursor: pointer;
-  }
+}
 
 .prise {
   font: 700 40px/56px'Montserrat', Sans-Serif, Arial;
   margin-right: 2%;
-  }
+}
 
 .second-page__bottom,
 .third-page__bottom {
   display: inline-block;
   font: 500 13px'Montserrat', Sans-Serif, Arial;
   justify-content: end;
-  }
+}
 
 .second-page__bottom {
   padding: 6.7% 2% 1% 1%;
   margin: 0;
-  }
+}
 
 .second-page__amount {
   height: 2.8vw;
@@ -238,7 +238,7 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: space-evenly;
-  }
+}
 
 .second-page__bucket {
   height: 2.8vw;
@@ -248,7 +248,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  }
+}
 
 .third-page {
   height: 100%;
@@ -256,7 +256,7 @@ a {
   background-position: 14.3% 49.7%, 12% 60%;
   display: flex;
   padding-bottom: 1%;
-  }
+}
 
 .third-page__main {
   width: 76%;
@@ -264,7 +264,7 @@ a {
   position: relative;
   z-index: 3;
   height: 100%;
-  }
+}
 
 .third-page__info {
   background-color: #fae8e4;
@@ -273,27 +273,27 @@ a {
   padding: 0% 0% 2.3% 7.4%;
   z-index: 3;
   position: relative;
-  }
+}
 
 .third-page__blanc {
   width: 100%;
   height: auto;
   display: flex;
   position: relative;
-  }
+}
 
 .third-page__title {
   font: 700 40px/41px'Montserrat', Sans-Serif, Arial;
   margin: 0 0 3.5% 0;
   padding: 8.6% 0 0 0%;
-  }
+}
 
 .third-page__subtitle {
   font: 700 16px'Montserrat', Sans-Serif, Arial;
   opacity: 0.5;
   margin: 0 0 7.5% 0;
   letter-spacing: 1px;
-  }
+}
 
 .third-page__text {
   font: 400 15px/21px'Montserrat', Sans-Serif, Arial;
@@ -301,7 +301,7 @@ a {
   width: 86%;
   margin: 0 0 8% 0;
   padding-left: 0.5%;
-  }
+}
 
 .third-page__choice {
   padding: 5% 15% 0% 0%;
@@ -315,7 +315,7 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: space-evenly;
-  }
+}
 
 .third-page__bucket {
   height: 2.8vw;
@@ -325,12 +325,12 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  }
+}
 
 .third-page__bottom {
   padding: 6% 1.8% 0% 20.8%;
   margin: 0;
-  }
+}
 
 .third-page__bottom-text {
   font: 700 12px/15px'Montserrat', Sans-Serif, Arial;
@@ -338,11 +338,11 @@ a {
   justify-content: flex-end;
   padding-top: 33%;
   width: 98%;
-  }
+}
 
 .WH {
   padding: 0% 0 0% 4%;
-  }
+}
 
 .language:hover,
 .first-page__links-read:hover,
@@ -358,7 +358,7 @@ a {
 .third-arrow:hover,
 .menu-mini:hover {
   opacity: 0.5;
-  }
+}
 
 @media (max-width: 1415px) {
   .second-page__text {
