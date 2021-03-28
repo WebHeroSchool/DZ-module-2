@@ -1,8 +1,9 @@
 body {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1440px;
-	font-family: 'Montserrat', Sans-Serif, Arial
+	/* max-width: 1440px; */
+	font-family: 'Montserrat', Sans-Serif, Arial;
+	padding: 0;
 }
 a {
 	text-decoration: none;
@@ -217,7 +218,7 @@ a {
 	background: url('img/clothes.png') no-repeat, url('img/shadow.png') no-repeat, linear-gradient(to right, #EBE3D8 27%, #000 27%, #000 32%, #EBE3D8 32%);
 	background-position: 14.3% 49.7%, 12% 60%;
 	display: flex;
-	flex-direction: row
+	flex-direction: row;
 }
 .third-page__main {
 	width: 76%;
@@ -231,7 +232,7 @@ a {
 	height: 54.5%;
 	padding: 0% 0% 0% 7.4%;
 	z-index: 3;
-	position: relative
+	position: relative;
 }
 .third-page__blanc {
 	width: 100%;
@@ -1020,18 +1021,28 @@ a {
 		font-size: 13px
 	}
 	.third-page {
-		height: 597px;
+		/* height: 597px; */
+		/* height: 100%; */
 		display: block;
 		background-position: top;
 		background-size: 93%, 100%;
-		background-position-y: 10.5%
+		/* background-position-y: 10.5%; */
+		background-position-y: 5.5%;
+		/* background-position-y: 8.5%; */
+		margin: 0;
+		padding: 0;
 	}
 	.third-page__blanc {
-		height: 46.1%
+		/* height: 46.1%; */
+		height: 30.5%;
+		/* height: 41%; */
+		margin: 0;
 	}
 	.third-page__info {
 		width: 99.5%;
-		padding: 0% 0% 2% 8%
+		padding: 0% 0% 2% 8%;
+		margin: 0;
+		/* height: auto; */
 	}
 	.third-page__title {
 		font: 700 20px'Montserrat', Sans-Serif, Arial
@@ -1048,7 +1059,9 @@ a {
 	}
 	.third-page__main {
 		width: 75.5%;
-		padding: 0% 0 0 12%
+		padding: 0% 0 0 12%;
+		margin: 0;
+		/* height: auto; */
 	}
 	.third-page__bucket {
 		height: 10vw;
@@ -1063,11 +1076,16 @@ a {
 	.third-page__bottom {
 		font: 500 15px/18px'Montserrat', Sans-Serif, Arial;
 		padding: 14% 8% 1% 50%;
-		width: 50%
+		width: 50%;
+		margin: 0;
+		/* height: auto; */
 	}
 	.third-arrow-mini {
 		display: flex;
 		justify-content: flex-end;
-		padding: 0% 2% 1% 42%
+		padding: 0% 2% 1% 42%;
+		margin: 0;
 	}
+}
+@media (max-width: 320px) {
 }
