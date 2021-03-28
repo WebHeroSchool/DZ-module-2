@@ -361,13 +361,13 @@ a {
   opacity: 0.5;
   }
 
-  @media (max-width: 1415px) {
+@media (max-width: 1415px) {
   .second-page__text {
     width: 96%;
     }
   }
 
-  @media (max-width: 1375px) {
+@media (max-width: 1375px) {
   .first-page__picture {
     background-size: 70%;
     }
@@ -377,7 +377,7 @@ a {
     }
   }
 
-  @media (max-width: 1350px) {
+@media (max-width: 1350px) {
   .first-page__bottom-icon {
     width: 13%;
     }
@@ -395,7 +395,7 @@ a {
     }
   }
 
-  @media (max-width: 1315px) {
+@media (max-width: 1315px) {
   .first-page__subtitle {
     width: 79%;
     }
@@ -405,7 +405,7 @@ a {
     }
   }
 
-  @media (max-width: 1280px) {
+@media (max-width: 1280px) {
   .third-page {
     background-size: 60%, 60%, 100%;
     }
@@ -423,7 +423,7 @@ a {
     }
   }
 
-  @media (max-width: 1250px) {
+@media (max-width: 1250px) {
   .first-page__picture {
     width: 90%;
     }
@@ -433,8 +433,8 @@ a {
     }
 
   .language {
-   padding: 0 0 0 14vw;
-   }
+    padding: 0 0 0 14vw;
+    }
 
   .first-page__subtitle {
     width: 78%;
@@ -445,7 +445,7 @@ a {
     }
   }
 
-  @media (max-width: 1215px) {
+@media (max-width: 1215px) {
   .second-page__picture {
     width: 70%;
     background-size: 70%, 50%;
@@ -456,7 +456,7 @@ a {
     }
   }
 
-  @media (max-width: 1196px) {
+@media (max-width: 1196px) {
   .first-page__title {
     padding-top: 18%;
     }
@@ -510,7 +510,7 @@ a {
     }
   }
 
-  @media (max-width: 1148px) {
+@media (max-width: 1148px) {
   .first-page__title {
     font-size: 75px;
     }
@@ -527,7 +527,8 @@ a {
     background-size: 80%;
     }
 
-  .first-page__bottom-icon, .first-page__bottom-scrooll {
+  .first-page__bottom-icon,
+  .first-page__bottom-scrooll {
     padding-top: 7%;
     }
 
@@ -536,7 +537,7 @@ a {
     }
   }
 
-  @media (max-width: 1109px) {
+@media (max-width: 1109px) {
   .first-page__title {
     font-size: 70px;
     }
@@ -573,7 +574,7 @@ a {
     }
   }
 
-  @media (max-width: 1052px) {
+@media (max-width: 1052px) {
   .first-page__subtitle {
     width: 80%;
     }
@@ -611,7 +612,7 @@ a {
     }
   }
 
-  @media (max-width: 1008px) {
+@media (max-width: 1008px) {
   .first-page__subtitle {
     width: 84%;
     }
@@ -637,7 +638,7 @@ a {
     }
   }
 
-  @media (max-width: 960px) {
+@media (max-width: 960px) {
   .first-page__title {
     font-size: 67px;
     }
@@ -693,7 +694,7 @@ a {
     }
   }
 
-  @media (max-width: 920px) {
+@media (max-width: 920px) {
   .first-page__subtitle {
     width: 85%;
     }
@@ -711,9 +712,10 @@ a {
     }
   }
 
-  @media (max-width: 888px) {
+@media (max-width: 888px) {
   .first-page__title {
     padding-top: 13%;
+    font-size: 63px;
     }
 
   .header {
@@ -722,10 +724,6 @@ a {
 
   .language {
     padding: 0 0 0 9vw;
-    }
-
-  .first-page__title {
-    font-size: 63px;
     }
 
   .first-page__subtitle {
@@ -737,11 +735,11 @@ a {
     }
 
   .third-page {
-     background-size: 75%, 75%, 100%;
+    background-size: 75%, 75%, 100%;
     }
   }
 
-  @media (max-width: 850px) {
+@media (max-width: 850px) {
   .language {
     padding: 0 0 0 7vw;
     }
@@ -781,7 +779,7 @@ a {
     }
   }
 
-  @media (max-width: 812px) {
+@media (max-width: 812px) {
   .first-page__subtitle {
     width: 85%;
     }
@@ -799,7 +797,7 @@ a {
     }
   }
 
-  @media (max-width: 780px) {
+@media (max-width: 780px) {
   .language,
   .first-page__picture,
   .first-page__subtitle,
@@ -823,6 +821,8 @@ a {
 
   .header {
     margin-bottom: 0;
+    height: 9.8%;
+    padding-top: 1%;
     }
 
   .logo {
@@ -831,14 +831,9 @@ a {
     font-size: 40px;
     }
 
-  .header {
-    height: 9.8%;
-    padding-top: 1%;
-    }
-
   .first-page__main {
     background: url('img/pete-bellis-432867-unsplash-mini.jpg') no-repeat;
-    background-position: 0vw -20.5vw;
+    background-position: 0 -20.5vw;
     height: 900px;
     background-size: 100%;
     }
@@ -1005,17 +1000,17 @@ a {
     }
   }
 
-  @media (max-width: 670px) {
+@media (max-width: 670px) {
   .third-page__main {
     padding: 55% 0% 0% 14%;
     }
 
   .third-page__info {
-     width: 82%;
+    width: 82%;
     }
   }
 
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
   .first-page {
     height: 150vw;
     }
@@ -1079,7 +1074,7 @@ a {
     }
   }
 
-  @media (max-width: 560px) {
+@media (max-width: 560px) {
   .header {
     height: 11%;
     }
@@ -1089,7 +1084,7 @@ a {
     }
   }
 
-  @media (max-width: 521px) {
+@media (max-width: 521px) {
   .header {
     height: 12%;
     }
@@ -1103,7 +1098,7 @@ a {
     }
   }
 
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
   .second-page__title,
   .third-page__title {
     font-size: 30px;
@@ -1114,7 +1109,7 @@ a {
     }
   }
 
-  @media (max-width: 425px) {
+@media (max-width: 425px) {
   .first-page__title {
     font-size: 60px;
     padding-top: 95%;
@@ -1129,7 +1124,7 @@ a {
     }
   }
 
-  @media (max-width: 380px) {
+@media (max-width: 380px) {
   .menu,
   .language,
   .first-page__picture,
@@ -1167,7 +1162,7 @@ a {
 
   .first-page__main {
     background: url('img/pete-bellis-432867-unsplash-mini.jpg') no-repeat;
-    background-position: 0vw -15vw;
+    background-position: 0 -15vw;
     overflow: hidden;
     position: relative;
     height: 140.5vw;
